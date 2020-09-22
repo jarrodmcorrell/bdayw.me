@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;355;400;500&display=swap');
 
 .App{
     margin-top:8%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;    
     text-align:center;
     font-size:24px;
-    font-weight: bolder;
     padding:10px;
 }
 
-.titletext{
-   
+.titletext::placeholder{
+   text-align:center;
 }
 
 .gsubmit{
     margin-left:10px;
     padding:20px;
+}
+
+.linktext{
+    font-size:18px;
+    display: inline-block;
+    padding: 10px;
+    border:1px solid;
+    border-color: #aaaaaa;
+    background-color: #efefefef;
+    border-radius:3px;
+    color:black;
+    text-decoration:none;
 }
